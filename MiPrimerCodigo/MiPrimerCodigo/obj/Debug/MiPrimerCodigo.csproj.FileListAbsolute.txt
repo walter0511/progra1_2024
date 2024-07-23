@@ -1,0 +1,7 @@
+C:\Users\Ana\OneDrive\Desktop\tareas  ugb\progra1_semi\MiPrimerCodigo\MiPrimerCodigo\obj\Debug\MiPrimerCodigo.csproj.AssemblyReference.cache
+C:\Users\Ana\OneDrive\Desktop\tareas  ugb\progra1_semi\MiPrimerCodigo\MiPrimerCodigo\obj\Debug\MiPrimerCodigo.csproj.CoreCompileInputs.cache
+C:\Users\Ana\OneDrive\Desktop\tareas  ugb\progra1_semi\MiPrimerCodigo\MiPrimerCodigo\bin\Debug\MiPrimerCodigo.exe.config
+C:\Users\Ana\OneDrive\Desktop\tareas  ugb\progra1_semi\MiPrimerCodigo\MiPrimerCodigo\bin\Debug\MiPrimerCodigo.exe
+C:\Users\Ana\OneDrive\Desktop\tareas  ugb\progra1_semi\MiPrimerCodigo\MiPrimerCodigo\bin\Debug\MiPrimerCodigo.pdb
+C:\Users\Ana\OneDrive\Desktop\tareas  ugb\progra1_semi\MiPrimerCodigo\MiPrimerCodigo\obj\Debug\MiPrimerCodigo.exe
+C:\Users\Ana\OneDrive\Desktop\tareas  ugb\progra1_semi\MiPrimerCodigo\MiPrimerCodigo\obj\Debug\MiPrimerCodigo.pdb
