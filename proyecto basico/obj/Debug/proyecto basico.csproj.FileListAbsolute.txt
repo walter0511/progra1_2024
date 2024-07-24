@@ -1,0 +1,7 @@
+D:\Users\Estudiante\Desktop\progra1_2024\proyecto basico\bin\Debug\proyecto basico.exe.config
+D:\Users\Estudiante\Desktop\progra1_2024\proyecto basico\bin\Debug\proyecto basico.exe
+D:\Users\Estudiante\Desktop\progra1_2024\proyecto basico\bin\Debug\proyecto basico.pdb
+D:\Users\Estudiante\Desktop\progra1_2024\proyecto basico\obj\Debug\proyecto basico.csproj.AssemblyReference.cache
+D:\Users\Estudiante\Desktop\progra1_2024\proyecto basico\obj\Debug\proyecto basico.csproj.CoreCompileInputs.cache
+D:\Users\Estudiante\Desktop\progra1_2024\proyecto basico\obj\Debug\proyecto basico.exe
+D:\Users\Estudiante\Desktop\progra1_2024\proyecto basico\obj\Debug\proyecto basico.pdb
