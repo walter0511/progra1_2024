@@ -1,0 +1,2 @@
+C:\Users\Ana\OneDrive\Desktop\semana 2 progra\progra1_2024\progra1_2024\obj\Debug\progra1_2024.csproj.AssemblyReference.cache
+C:\Users\Ana\OneDrive\Desktop\semana 2 progra\progra1_2024\progra1_2024\obj\Debug\progra1_2024.csproj.CoreCompileInputs.cache
