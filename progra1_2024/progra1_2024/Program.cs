@@ -11,6 +11,7 @@ namespace progra1_2024
         static void Main(string[] args)
         {
             // este es un comentario
+            // segundo comentario
         }
     }
 }
