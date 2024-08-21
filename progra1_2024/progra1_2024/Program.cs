@@ -17,7 +17,7 @@ namespace progra1_2024
                 {915.82, 2058.67, 20,60.00},
                 {2058.68, 9999999, 30, 288.57},
             };
-            Console.Write("sueldo");
+            Console.Write("sueldo: ");
             double sueldo = double.Parse(Console.ReadLine());
             double afp = sueldo * 6.25 / 100;
             sueldo -= afp;
