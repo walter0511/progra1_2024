@@ -10,30 +10,31 @@ namespace progra1_2024
     {
         static void Main(string[] args)
         {
-            double[,] matriz = new double[,] {
-                {0.01, 487.6, 0, 0 },
-                {487.61, 642.85, 10, 17.48},
-                {642.86, 915.81, 10, 32.70},
-                {915.82, 2058.67, 20,60.00},
-                {2058.68, 9999999, 30, 288.57},
-            };
-            Console.Write("sueldo: ");
-            double sueldo = double.Parse(Console.ReadLine());
-            double afp = sueldo * 6.25 / 100;
-            sueldo -= afp;
-
-            double isr = 0;
-            for (int i = 0; i < 5; i++)
+            int A = 0, B = 1, C = 1;
+            while (C < 100)
             {
-                if (sueldo >= matriz[i, 0] && sueldo <= matriz[i, 1])
-                    isr = (sueldo - (matriz[i, 0] - 0.01)) * matriz[i, 2] / 100 + matriz[i, 3];
+                int a = 0, b = 1, c = 1;
+                /*
+                 a+b=c
+                 0+1=1
+                 1+0=1
+                 1+1=2
+                 2+1=3
+                 3+2=5
+                 5+3=8
+                 8+5=13
+                ...
+                 */
+                while (c < 100)
+                {
+                    Console.WriteLine("{0}+{1}={2}", a, b, c);
+                    b = a;
+                    a = c;
+                    c = a + b;
+                    Console.ReadLine();
+
+                }
             }
-
-            sueldo -= isr;
-            Console.WriteLine("Sueldo: {0}, AFP: {1}, ISR: {2}", sueldo, afp, isr);
-
-            Console.ReadLine();
-
         }
     }
 }
