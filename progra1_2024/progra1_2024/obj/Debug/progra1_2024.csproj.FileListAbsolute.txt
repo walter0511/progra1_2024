@@ -1,2 +1,9 @@
 C:\Users\Ana\OneDrive\Desktop\semana 2 progra\progra1_2024\progra1_2024\obj\Debug\progra1_2024.csproj.AssemblyReference.cache
 C:\Users\Ana\OneDrive\Desktop\semana 2 progra\progra1_2024\progra1_2024\obj\Debug\progra1_2024.csproj.CoreCompileInputs.cache
+C:\Users\Ana\OneDrive\Desktop\promediode3cp\progra1_2024\progra1_2024\bin\Debug\progra1_2024.exe.config
+C:\Users\Ana\OneDrive\Desktop\promediode3cp\progra1_2024\progra1_2024\bin\Debug\progra1_2024.exe
+C:\Users\Ana\OneDrive\Desktop\promediode3cp\progra1_2024\progra1_2024\bin\Debug\progra1_2024.pdb
+C:\Users\Ana\OneDrive\Desktop\promediode3cp\progra1_2024\progra1_2024\obj\Debug\progra1_2024.csproj.AssemblyReference.cache
+C:\Users\Ana\OneDrive\Desktop\promediode3cp\progra1_2024\progra1_2024\obj\Debug\progra1_2024.csproj.CoreCompileInputs.cache
+C:\Users\Ana\OneDrive\Desktop\promediode3cp\progra1_2024\progra1_2024\obj\Debug\progra1_2024.exe
+C:\Users\Ana\OneDrive\Desktop\promediode3cp\progra1_2024\progra1_2024\obj\Debug\progra1_2024.pdb
