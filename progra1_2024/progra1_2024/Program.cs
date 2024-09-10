@@ -10,35 +10,97 @@ namespace progra1_2024
     {
         static void Main(string[] args)
         {
-            //Uso de funciones...
-            Console.WriteLine("La suma de 10+5={0}", suma());
 
-            Console.Write("Num 1: ");
-            int num1 = int.Parse(Console.ReadLine());
+            //metro, kilometro, hectometro, decametro, decimetro, centimetro, milimetro, pies, pulgadas, yardas
+            string[] unidad =
+            {"Metro", "Kilometro", "Hectometro", "Decametro", "Decimetro", "Centimetro", "Milimetro", "Pies", "Pulgadas", "Yardas" }
 
-            Console.Write("Num 2: ");
-            int num2 = int.Parse(Console.ReadLine());
+            ;
+            double[] longitud =
+            {1, 1000, 100, 10, 0.1, 0.01, 0.001, 0.3048, 0.254, 0.9144  }
 
-            Console.WriteLine("La suma de {0}+{1}={2}", num1, num2, suma(num1, num2));
+            ;
+
+            while (true)
+            {
+                Console.WriteLine("Seleccione la unidad de longitud que desea convertir");
+                for (int i = 0; i < unidad.Length; i++)
+                    Console.WriteLine($"{i + 1}. {unidad[i]}");
+                int Uaconvertir = int.Parse(Console.ReadLine() ?? "0") - 1;
+                if (Uaconvertir < 0 || Uaconvertir >= unidad.Length)
+                {
+                    Console.WriteLine("Opción no válida.");
+                    continue;
+                }
+                Console.WriteLine("Elegistes la opcion {0} ahora selecciona a que unidad lo deseas convertir", Uaconvertir);
+                for (int i = 0; i < unidad.Length; i++)
+                    Console.WriteLine($"{i + 1}. {unidad[i]}");
+                int Uaconvertida = int.Parse(Console.ReadLine() ?? "0") - 1;
+
+                if (Uaconvertida < 0 || Uaconvertida >= unidad.Length)
+                {
+                    Console.WriteLine("Opción no válida.");
+                    continue;
+                }
+
+                Console.Write("Introduce la longitud que desees convertir: ");
+                double Lconvertir = double.Parse(Console.ReadLine() ?? "0");
+
+
+
+                double resultado = Lconvertir * (longitud[Uaconvertir] / longitud[Uaconvertida]);
+                Console.WriteLine($"{Lconvertir} {unidad[Uaconvertir]} = {resultado} {unidad[Uaconvertida]}");
+
+                Console.ReadLine();
+
+
+
+
+            };
+
+
+            Console.Write("Ingrese la serie de numeros separados por comas: ");
+            String serie = Console.ReadLine();
+            String[] numeros = serie.Split(',');
+
+            Console.WriteLine("La media aritmetica es: {0}, y la desviacion tipica es: {1}; y la medida armonica es: {2}", media(numeros), tipica(numeros), armonica(numeros));
 
             Console.ReadLine();
         }
-        static int suma()
+        static double media(string[] serie)
         {
-            int respuesta = 10 + 5;
-            return respuesta;
+            double media = 0;
+            foreach (string num in serie)
+            {
+                media += int.Parse(num);
+            }
+
+
+
+
+
+            return media / serie.Length;
         }
-        static int suma(int a, int b)
+        static double tipica(string[] serie)
         {
-            int respuesta = a + b;
-            return respuesta;
-
-
+            double tipica = 0,
+                     m = media(serie);
+            foreach (string num in serie)
+            {
+                tipica += Math.Pow(int.Parse(num) - m, 2);
+            }
+            tipica = Math.Sqrt(tipica / serie.Length);
+            return Math.Round(tipica);
         }
-
-
-
-
+        static double armonica(string[] serie)
+        {
+            double armonica = 0;
+            foreach (string num in serie)
+            {
+                armonica += 1 / int.Parse(num);
+            }
+            armonica = serie.Length / armonica;
+            return Math.Round(armonica);
+        }
     }
-   
 }
