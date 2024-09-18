@@ -29,9 +29,9 @@ namespace progra1_2024
                 }
                 else
                 {
-                    for (int i = 1 < objConversor.etiquetas[opcion].lenght; i++)
-                    {
+                    for (int i = 1 < objConversor.etiquetas[opcion].lenght; i++) {
 
+                  
                     }
                     Console.WriteLine("{0}. {1}", i, objConversor.etiquetas[opcion][i]);
                     Console.Write("De: ");
